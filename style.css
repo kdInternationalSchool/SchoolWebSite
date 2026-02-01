@@ -271,6 +271,29 @@ body {
       height: 180px;
     }
   }
+
+  #about p {
+    font-size: 18px;      /* text bada */
+    line-height: 1.8;     /* reading easy */
+    max-width: 900px;     /* zyada wide na ho */
+    margin: 0 auto;       /* center align */
+  }
+
+  #about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #about p {
+      font-size: 16px;
+    }
+  
+    #about h2 {
+      font-size: 26px;
+    }
+  }
+  
   
   
   
