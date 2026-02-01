@@ -1,0 +1,48 @@
+body { margin:0; font-family: Arial, sans-serif; }
+header {
+  background:#003366; color:white;
+  display:flex; justify-content:space-between;
+  padding:15px; flex-wrap:wrap;
+}
+nav a { color:white; margin:5px 10px; text-decoration:none; }
+
+.hero {
+  background:linear-gradient(#003366,#0059b3);
+  color:white; text-align:center; padding:80px 20px;
+}
+.hero button {
+  background:#ffcc00; border:none;
+  padding:10px 20px; font-size:16px;
+}
+
+section { padding:40px 20px; text-align:center; }
+.gray { background:#f4f4f4; }
+
+.cards { display:flex; justify-content:center; flex-wrap:wrap; }
+.card {
+  background:white; margin:10px; padding:20px;
+  width:200px; box-shadow:0 0 10px #ccc;
+}
+
+.notice { list-style:none; padding:0; }
+.notice li { padding:8px; }
+
+.gallery { display:flex; flex-wrap:wrap; justify-content:center; }
+.gallery img {
+  width:250px; height:160px; object-fit:cover;
+  margin:10px; border-radius:5px;
+}
+
+form { max-width:400px; margin:auto; }
+form input, form select, form button {
+  width:100%; padding:10px; margin:8px 0;
+}
+
+footer {
+  background:#003366; color:white;
+  text-align:center; padding:10px;
+}
+
+@media(max-width:600px){
+  nav { text-align:center; width:100%; }
+}
